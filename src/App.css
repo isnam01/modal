@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  margin-top:150px;
+}
+
+.button {
+  
+  border-radius: 10px;
+  font-size: large;
 }
 
 .App-logo {
@@ -13,26 +20,69 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.my-modal {
+  background-color:#354C77;
   color: white;
+  padding: 10px;
+ 
+opacity: 1;
+}
+.body1{
+  margin:10px;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  text-align: center;
+  
+}
+.content{
+  color:black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section{
+  text-align: left;
+  font-size: 12px;
+font: Medium 10px Roboto;
+letter-spacing: 0px;
+color: #354C77;
+border-radius: 5px;
+padding:10px;
+margin:10px;
+background-color: white;
 }
+
+.button{
+  
+  background: #20D5B9 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  text-align: left;
+  padding:0 15px;
+  font: Medium 10px Roboto;
+  letter-spacing: 0.44px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  border-radius: 5px;;
+}
+
+.zone{
+
+  
+width: 29px;
+height: 29px;
+background: #E5EAF1 0% 0% no-repeat padding-box;
+opacity: 1;
+float:left;
+text-align: center;
+border-radius: 50%;
+margin:10px;
+margin-top:0px;
+margin-bottom:30px;
+color:white;
+
+}
+
+
+
+
